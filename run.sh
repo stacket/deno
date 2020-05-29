@@ -1,1 +1,1 @@
-deno run $cmd
+deno run $RUN

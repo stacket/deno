@@ -9,7 +9,7 @@ RUN curl -fsSL https://deno.land/x/install/install.sh | sh
 
 ENV DENO_INSTALL="/root/.deno"
 ENV PATH="/root/.deno/bin:$PATH"
-ENV CMD="https://deno.land/std/examples/welcome.ts"
+ENV RUN="https://deno.land/std/examples/welcome.ts"
 
 WORKDIR /app
 CMD trap 'exit' INT; /run.sh
